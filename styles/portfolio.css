@@ -28,8 +28,9 @@ body {
     color: #757575;
     text-align: justify;
     font-size: 18px;
-    line-height: 2; 
+    line-height: 2;
 }
+
 /* nav related styles */
 nav {
     display: flex;
@@ -41,10 +42,10 @@ nav {
 .nav-title {
     color: #181818;
     font-size: 45px;
-    font-weight: 800;   
+    font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -60,43 +61,43 @@ nav a {
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: #fff8f3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
 
-.banner .profile-picture{
+.banner .profile-picture {
     width: 500px;
 }
 
-.banner-greeting{
+.banner-greeting {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 0;
 }
 
-.banner-title{
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-.banner-text{
+.banner-text {
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -106,8 +107,13 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+main section {
+    margin-top: 130px;
+}
+
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
@@ -134,4 +140,30 @@ main {
     margin: 0;
     color: #181818;
     font-weight: 700;
+}
+
+/* what-I-do related styles */
+#what-i-do-description {
+    padding: 30px 150px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skills {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    border: 0 30px;
 }
